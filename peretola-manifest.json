@@ -1,0 +1,454 @@
+{
+	"@context": "http://iiif.io/api/presentation/2/context.json",
+	"@id": "http://9499b3d9-cffc-464c-b44a-4613a5410cb9",
+	"@type": "sc:Manifest",
+	"label": "Peretola, Florence, vintage photos",
+	"metadata": [],
+	"description": [
+		{
+			"@value": "A collection of vintage photos of Peretola, an ancient suburb in Florence.",
+			"@language": "en"
+		}
+	],
+	"license": "https://creativecommons.org/licenses/by-sa/4.0/",
+	"attribution": "Publisher: Rebecca Del Bene",
+	"sequences": [
+		{
+			"@id": "http://e38dbbf3-086c-4966-86af-8c7777475ebd",
+			"@type": "sc:Sequence",
+			"label": "Normal Sequence",
+			"canvases": [
+				{
+					"@id": "http://21aed596-803c-476a-8df9-9afbd6e63283",
+					"@type": "sc:Canvas",
+					"label": "Solemn inauguration of the statue of Giuseppe Garibaldi in Peretola square.",
+					"height": 861,
+					"width": 1076,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://35474633-3296-4dca-92c4-6e865a1d66db",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "http://free.iiifhosting.com/iiif/f81942dc8fec930ac7ade8cd63951567bcb24d1b63b369d2c713928ffbb6a599/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "http://free.iiifhosting.com/iiif/f81942dc8fec930ac7ade8cd63951567bcb24d1b63b369d2c713928ffbb6a599",
+									"profile": [
+										"http://iiif.io/api/image/2/level1.json",
+										{
+											"formats": [
+												"jpg"
+											],
+											"qualities": [
+												"native",
+												"color",
+												"gray"
+											],
+											"supports": [
+												"regionByPct",
+												"regionSquare",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"sizeAboveFull",
+												"rotationBy90s",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 861,
+								"width": 1076
+							},
+							"on": "http://21aed596-803c-476a-8df9-9afbd6e63283"
+						}
+					],
+					"related": [
+						"https://peekonperetola.omeka.net/items/show/1",
+						"https://www.historypin.org/en/person/106001/explore/geo/45.0198,-55.607825,2/bounds/-54.320215,-147.601329,83.685086,36.385678/paging/1/pin/1144495"
+					],
+					"metadata": []
+				},
+				{
+					"@id": "http://82bc39bf-7c82-4033-b74a-d52710286181",
+					"@type": "sc:Canvas",
+					"label": "View of the church of \"Santa Maria a Peretola\"",
+					"height": 607,
+					"width": 960,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://d1a9efdb-16e4-4169-8deb-b0509ce5907e",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "http://free.iiifhosting.com/iiif/9f1cffb4c26907d555b99dc77361ab771d468287a3c1e4ec01bc04d8f46299c1/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "http://free.iiifhosting.com/iiif/9f1cffb4c26907d555b99dc77361ab771d468287a3c1e4ec01bc04d8f46299c1",
+									"profile": [
+										"http://iiif.io/api/image/2/level1.json",
+										{
+											"formats": [
+												"jpg"
+											],
+											"qualities": [
+												"native",
+												"color",
+												"gray"
+											],
+											"supports": [
+												"regionByPct",
+												"regionSquare",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"sizeAboveFull",
+												"rotationBy90s",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 607,
+								"width": 960
+							},
+							"on": "http://82bc39bf-7c82-4033-b74a-d52710286181"
+						}
+					],
+					"related": [
+						"https://peekonperetola.omeka.net/items/show/3",
+						"https://www.historypin.org/en/person/106001/explore/geo/45.0198,-55.607825,2/bounds/-54.320215,-147.601329,83.685086,36.385678/paging/1/pin/1144496"
+					]
+				},
+				{
+					"@id": "http://8419f289-409a-438b-9fb9-cfdb2bec9669",
+					"@type": "sc:Canvas",
+					"label": "A photo of Peretola square with the arrival of the tramway",
+					"height": 365,
+					"width": 549,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://983fd5df-c81e-4f5e-8667-2a3e174c6684",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "http://free.iiifhosting.com/iiif/a450660fa13976769fbb11e94b39c7ffaf177598dd8e18553e7d44a67c47f661/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "http://free.iiifhosting.com/iiif/a450660fa13976769fbb11e94b39c7ffaf177598dd8e18553e7d44a67c47f661",
+									"profile": [
+										"http://iiif.io/api/image/2/level1.json",
+										{
+											"formats": [
+												"jpg"
+											],
+											"qualities": [
+												"native",
+												"color",
+												"gray"
+											],
+											"supports": [
+												"regionByPct",
+												"regionSquare",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"sizeAboveFull",
+												"rotationBy90s",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 365,
+								"width": 549
+							},
+							"on": "http://8419f289-409a-438b-9fb9-cfdb2bec9669"
+						}
+					],
+					"related": [
+						"https://peekonperetola.omeka.net/items/show/2",
+						"https://www.historypin.org/en/person/106001/explore/geo/45.0198,-55.607825,2/bounds/-54.320215,-147.601329,83.685086,36.385678/paging/1/pin/1144497",
+						null,
+						null,
+						null,
+						"https://www.historypin.org/en/person/106001/explore/geo/45.0198,-55.607825,2/bounds/-54.320215,-147.601329,83.685086,36.385678/paging/1/pin/1144497"
+					]
+				},
+				{
+					"@id": "http://fb7da978-92d3-4cb8-b095-32b983660ddf",
+					"@type": "sc:Canvas",
+					"label": "The street of \"Stazione delle Cascine\"",
+					"height": 261,
+					"width": 400,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://e29aaa53-7c6c-4e06-a702-a3169b408149",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "http://free.iiifhosting.com/iiif/f5464432ca8fb576c1f96ea3b6f39017c899f7c5e706cbccfeadb1fdb0d874b0/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "http://free.iiifhosting.com/iiif/f5464432ca8fb576c1f96ea3b6f39017c899f7c5e706cbccfeadb1fdb0d874b0",
+									"profile": [
+										"http://iiif.io/api/image/2/level1.json",
+										{
+											"formats": [
+												"jpg"
+											],
+											"qualities": [
+												"native",
+												"color",
+												"gray"
+											],
+											"supports": [
+												"regionByPct",
+												"regionSquare",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"sizeAboveFull",
+												"rotationBy90s",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 261,
+								"width": 400
+							},
+							"on": "http://fb7da978-92d3-4cb8-b095-32b983660ddf"
+						}
+					],
+					"related": [
+						"https://peekonperetola.omeka.net/items/show/4",
+						"https://www.historypin.org/en/person/106001/explore/geo/45.0198,-55.607825,2/bounds/-54.320215,-147.601329,83.685086,36.385678/paging/1/pin/1144498"
+					]
+				},
+				{
+					"@id": "http://e8d55cdc-1c85-4fed-aaed-6498ad14ec5b",
+					"@type": "sc:Canvas",
+					"label": "The street of \"Via dei Vespucci\"",
+					"height": 644,
+					"width": 965,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://497c364b-e604-4003-8013-87e1c9d0b48c",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "http://free.iiifhosting.com/iiif/3f38fcc5348c977739193d05536ceac9133cf3fd09260445c99f89885848da1c/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "http://free.iiifhosting.com/iiif/3f38fcc5348c977739193d05536ceac9133cf3fd09260445c99f89885848da1c",
+									"profile": [
+										"http://iiif.io/api/image/2/level1.json",
+										{
+											"formats": [
+												"jpg"
+											],
+											"qualities": [
+												"native",
+												"color",
+												"gray"
+											],
+											"supports": [
+												"regionByPct",
+												"regionSquare",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"sizeAboveFull",
+												"rotationBy90s",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 644,
+								"width": 965
+							},
+							"on": "http://e8d55cdc-1c85-4fed-aaed-6498ad14ec5b"
+						}
+					],
+					"related": [
+						"https://peekonperetola.omeka.net/items/show/5",
+						"https://www.historypin.org/en/person/106001/explore/geo/45.0198,-55.607825,2/bounds/-54.320215,-147.601329,83.685086,36.385678/paging/1/pin/1144501"
+					]
+				},
+				{
+					"@id": "http://25effef8-8cd2-4386-a777-2ac47529b079",
+					"@type": "sc:Canvas",
+					"label": "Highway exit of the highway \"Firenze-Mare\", 1930s",
+					"height": 667,
+					"width": 960,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://b3846b40-2ed2-4f73-a1a7-38dcb4fa6588",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "http://free.iiifhosting.com/iiif/c399e6e039980a3636c36fe7a5c26d79f1f49d6c209e15c23c83ea5c416eb6e6/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "http://free.iiifhosting.com/iiif/c399e6e039980a3636c36fe7a5c26d79f1f49d6c209e15c23c83ea5c416eb6e6",
+									"profile": [
+										"http://iiif.io/api/image/2/level1.json",
+										{
+											"formats": [
+												"jpg"
+											],
+											"qualities": [
+												"native",
+												"color",
+												"gray"
+											],
+											"supports": [
+												"regionByPct",
+												"regionSquare",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"sizeAboveFull",
+												"rotationBy90s",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 667,
+								"width": 960
+							},
+							"on": "http://25effef8-8cd2-4386-a777-2ac47529b079"
+						}
+					],
+					"related": [
+						"https://peekonperetola.omeka.net/items/show/6",
+						"https://www.historypin.org/en/person/106001/explore/geo/45.0198,-55.607825,2/bounds/-54.320215,-147.601329,83.685086,36.385678/paging/1/pin/1144504"
+					]
+				},
+				{
+					"@id": "http://f8a25e25-ce04-4fa9-9da9-3868b03114d3",
+					"@type": "sc:Canvas",
+					"label": "Florence Flood, 1966",
+					"height": 764,
+					"width": 1087,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://47d7de40-1ac0-4393-9735-95ffcee6913d",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "http://free.iiifhosting.com/iiif/396765775cc1f42efc0ffa411b5b8956d8109e36f5d6817972a425725919e19c/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "http://free.iiifhosting.com/iiif/396765775cc1f42efc0ffa411b5b8956d8109e36f5d6817972a425725919e19c",
+									"profile": [
+										"http://iiif.io/api/image/2/level1.json",
+										{
+											"formats": [
+												"jpg"
+											],
+											"qualities": [
+												"native",
+												"color",
+												"gray"
+											],
+											"supports": [
+												"regionByPct",
+												"regionSquare",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"sizeAboveFull",
+												"rotationBy90s",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 764,
+								"width": 1087
+							},
+							"on": "http://f8a25e25-ce04-4fa9-9da9-3868b03114d3"
+						}
+					],
+					"related": [
+						"https://peekonperetola.omeka.net/items/show/8",
+						"https://www.historypin.org/en/person/106001/explore/geo/45.0198,-55.607825,2/bounds/-54.320215,-147.601329,83.685086,36.385678/paging/1/pin/1144503"
+					]
+				},
+				{
+					"@id": "http://67262d25-a3e9-4a72-9ba6-043e8ddf91e9",
+					"@type": "sc:Canvas",
+					"label": "Amerigo Vespucci's house",
+					"height": 636,
+					"width": 854,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://1210e415-d75c-4446-8d68-fe7f16c94b3b",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "http://free.iiifhosting.com/iiif/12cbeff361ef3f5ba25484c6f4a8c97354203f0d52ed64c01e7eb71d0ec648f8/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "http://free.iiifhosting.com/iiif/12cbeff361ef3f5ba25484c6f4a8c97354203f0d52ed64c01e7eb71d0ec648f8",
+									"profile": [
+										"http://iiif.io/api/image/2/level1.json",
+										{
+											"formats": [
+												"jpg"
+											],
+											"qualities": [
+												"native",
+												"color",
+												"gray"
+											],
+											"supports": [
+												"regionByPct",
+												"regionSquare",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"sizeAboveFull",
+												"rotationBy90s",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 636,
+								"width": 854
+							},
+							"on": "http://67262d25-a3e9-4a72-9ba6-043e8ddf91e9"
+						}
+					],
+					"related": [
+						"https://peekonperetola.omeka.net/items/show/9",
+						"https://www.historypin.org/en/person/106001/explore/geo/45.0198,-55.607825,2/bounds/-54.320215,-147.601329,83.685086,36.385678/paging/1/pin/1144495"
+					]
+				}
+			]
+		}
+	],
+	"structures": []
+}

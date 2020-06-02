@@ -6098,8 +6098,12 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #1abc9c !important;
-}
+  /*background: #1abc9c;*/
+  background-image: url("background.jpg");
+  background-repeat: no-repeat;
+  background-size: 100vw;
+  background-clip: border-box; 
+  }
 
 a.bg-primary:hover, a.bg-primary:focus,
 button.bg-primary:hover,
@@ -7634,6 +7638,7 @@ button.bg-dark:focus {
 .mb-5,
 .my-5 {
   margin-bottom: 3rem !important;
+  margin-top: 3rem !important;
 }
 
 .ml-5,
@@ -10136,14 +10141,15 @@ h3 {
 }
 .masthead {
   padding-top: calc(6rem + 74px);
-  padding-bottom: 6rem;
+  padding-bottom: 50px !important;
 }
 .masthead .masthead-heading {
   font-size: 2.75rem;
   line-height: 2.75rem;
+  -webkit-text-stroke: 1px black;
 }
 .masthead .masthead-subheading {
-  font-size: 1.25rem;
+  font-size: 30px;
 }
 .masthead .masthead-avatar {
   width: 15rem;
@@ -10266,4 +10272,8 @@ form .row:first-child .floating-label-form-group {
 .teaching {
   text-align: center;
   margin-top: 30px;
+}
+
+#about {
+  text-align: center;
 }

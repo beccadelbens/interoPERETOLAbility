@@ -7,7 +7,7 @@
         <meta name="author" content="" />
         <title>interoPERETOLAbility</title>
         <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+        <link rel="icon" type="image/x-icon" href="assets/img/icon2.jpg"/>
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
         <!-- Google fonts-->
@@ -20,7 +20,7 @@
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
             <div class="container">
-                <a class="navbar-brand js-scroll-trigger" href="#page-top" style="text-transform: none;">interoPERETOLAbility</a><button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">Menu <i class="fas fa-bars"></i></button>
+                <a class="navbar-brand js-scroll-trigger" href="#page-top" style="text-transform: none;">Home</a><button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">Menu<i class="fas fa-bars"></i></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Discover</a></li>
@@ -31,7 +31,7 @@
         <!-- Masthead-->
         <header class="masthead bg-primary text-white text-center">
             <div class="container d-flex align-items-center flex-column">
-                <h1 class="masthead-heading text-uppercase mb-0"></h1>
+                <h1 class="masthead-heading mb-0" style="text-transform: none;">interoPERETOLAbility</h1>
                 <!-- Icon Divider-->
                 <div class="divider-custom divider-light">
                     <div class="divider-custom-line"></div>
@@ -39,9 +39,14 @@
                     <div class="divider-custom-line"></div>
                 </div>
                 <!-- Masthead Subheading-->
-                <p class="masthead-subheading font-weight-light mb-0"></p>
+                <p class="masthead-subheading mb-0" style="font-size: 40px !important; font-weight: bold; -webkit-text-stroke: 1px black;">Explore the ancient Peretola through technology</p>
             </div>
         </header>
+        <div class="col-lg-12">
+        <p class="mb-5" style="font-size: 22px; text-align: center; margin-bottom: 0px !important;">
+        	This website hosts and end of course project for a laboratory class at the University of Bologna.<br>The aim of this project is to integrate different types of technologies in order to analyze and represent some sort of cultural objects.<br><br> In this case I decided to start from a collection of photos of the "borgo" in which I live, Peretola (Florence). These photos were collected from Facebook platform and then analyzed and represented under different points of view.<br>The main purpose was to make these photos interoperable across different types of technologies.</p>
+        </div>
+
         <!-- Portfolio Section-->
         <section class="page-section portfolio" id="portfolio">
             <div class="container">
@@ -140,7 +145,7 @@
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
                                     <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal1Label">3D modelling</h2>
-                                    <p class="mb-5"></p>
+                                    <p class="mb-5" style="font-size: 20px;">Through the use of Blender I modelled a gallery of photos of the ancient Peretola. After the modelling the gallery was uploaded online on the <a href="https://p3d.in/about">p3d.in</a> platform. The model can be browsed in the box below. </p>
                                     <iframe allowfullscreen webkitallowfullscreen width="640" height="480" frameborder="0" seamless src="https://p3d.in/e/lGyJy"></iframe>
                                     <button class="btn btn-primary" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
                                 </div>
@@ -163,7 +168,16 @@
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
                                     <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal2Label">Digital History</h2>
-                                    <p class="mb-5"></p>
+                                    <p class="mb-5" style="font-size: 20px;">
+                                    	In this section the photos were collected in a digital archive on the <b>Omeka.net</b> platform. Whenever possible each photo have been enriched with its metadata, such as title, author, description, etc. Omeka platform make use of Dublin Core elements to represent data. An important thing to observe is that for each photo was created a unique identifier through the use of the IIIF standard (that will be discussed in the third section).
+                                    	<br>The archive can be seen <a href="https://peekonperetola.omeka.net/">here</a>.
+                                    </p>
+
+                                    	<hr>
+                                    <p class="mb-5" style="font-size: 20px;">
+                                    	Once properly represented the photos, they were geolocated in space through the use of another platform, <b>HistoryPin</b>. This platform allows users to locate the photos in the place in which they were taken. In this way you can see the differences between the past and the present.
+                                    	<br>The result can be seen <a href="https://www.historypin.org/en/person/106001">here</a>.
+                                    </p>
                                     <button class="btn btn-primary" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
                                 </div>
                             </div>
@@ -185,7 +199,21 @@
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
                                     <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal3Label">XML Technologies - IIIF</h2>
-                                    <p class="mb-5"></p>
+                                    <p class="mb-5" style="font-size: 20px;">In this section of the project the photos were associated to a IIIF URI and were described through a IIIF manifest. <br>As first step I uploaded the photos on a <a href="https://www.iiifhosting.com/">hosting platform</a>. This platform processed the photos associating them a IIIF URI. The links below allow you to access the photos and modify them directly online.</p>
+                                	<p class="mb-5" style="font-size: 20px;">
+                                		<a href="http://free.iiifhosting.com/iiif/f81942dc8fec930ac7ade8cd63951567bcb24d1b63b369d2c713928ffbb6a599/full/full/0/default.jpg">Inauguration of Garibaldi statue</a><br>
+                                		<a href="http://free.iiifhosting.com/iiif/9f1cffb4c26907d555b99dc77361ab771d468287a3c1e4ec01bc04d8f46299c1/full/full/0/default.jpg">The church of "Santa Maria a Peretola"</a><br>
+                                		<a href="http://free.iiifhosting.com/iiif/a450660fa13976769fbb11e94b39c7ffaf177598dd8e18553e7d44a67c47f661/full/full/0/default.jpg">Garibaldi square and the arrival of the tramway</a><br>
+                                		<a href="http://free.iiifhosting.com/iiif/f5464432ca8fb576c1f96ea3b6f39017c899f7c5e706cbccfeadb1fdb0d874b0/full/full/0/default.jpg">Via Stazione delle Cascine</a><br>
+                                		<a href="http://free.iiifhosting.com/iiif/3f38fcc5348c977739193d05536ceac9133cf3fd09260445c99f89885848da1c/full/full/0/default.jpg ">Via de'Vespucci</a><br>
+                                		<a href="http://free.iiifhosting.com/iiif/c399e6e039980a3636c36fe7a5c26d79f1f49d6c209e15c23c83ea5c416eb6e6/full/full/0/default.jpg">Highway exit in the 1930s</a><br>
+                                		<a href="http://free.iiifhosting.com/iiif/396765775cc1f42efc0ffa411b5b8956d8109e36f5d6817972a425725919e19c/full/full/0/default.jpg ">The "Cupolina"</a><br>
+                                		<a href="http://free.iiifhosting.com/iiif/12cbeff361ef3f5ba25484c6f4a8c97354203f0d52ed64c01e7eb71d0ec648f8/full/full/0/default.jpg">Amerigo Vespucci's house</a>
+                                	</p>
+                                	<hr>
+                                    <p class="mb-5" style="font-size: 20px;">Then was created the manifest for the collection, through the <a href="http://iiif.thembi.me:3000/#/?_k=6j73y9">IIIF Manifest Editor</a>. The IIIF manifest is a JSON document which describes the structures of the images and which contains references to all the Image API endopoints.
+                                    <br><a href="peretola-manifest.json">Here</a> you can see the manifest of this collection of photos.
+                                    </p>
                                     <button class="btn btn-primary" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
                                 </div>
                             </div>
